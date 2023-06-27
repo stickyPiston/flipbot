@@ -1,0 +1,7 @@
+services:
+  flipbot:
+    build: .
+    volumes:
+      - sounds:/home/flipbot/sounds
+volumes:
+  sounds:
