@@ -3,5 +3,6 @@ services:
     build: .
     volumes:
       - sounds:/home/flipbot/sounds
+    network_mode: bridge
 volumes:
   sounds:
